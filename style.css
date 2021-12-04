@@ -1,0 +1,527 @@
+@font-face {
+	font-family: 'Luxury Gold';
+	src: url('Luxury-Gold.eot');
+	src: url('Luxury-Gold.eot?#iefix') format('embedded-opentype'),
+		url('Luxury-Gold.woff2') format('woff2'),
+		url('Luxury-Gold.woff') format('woff'),
+		url('Luxury-Gold.ttf') format('truetype'),
+		url('Luxury-Gold.svg#Luxury-Gold') format('svg');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+body{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Lato' , sans-serif;
+	font-size: 14px;
+}
+.container{
+	width: 950px;
+	margin: auto;
+}
+
+
+/* header section start */
+
+
+.header{
+	background-color: #000522;
+	width: 100%
+}
+.header::after{
+	content: " ";
+	display: block;
+	clear: both;
+	*zoom: 1; /*some extra code for the browsers which do not support these css properties*/
+}
+.row{
+	position: relative;
+	width: 100%;
+	margin-left: 0;
+}
+.logo-section{
+	width: 10%;
+	float: left;
+	
+}
+.logo-section > img{
+	max-width: 200px;
+}
+.nav-section{
+	width: 80%;
+	position: relative;
+	top: 3px;
+	margin-right: 0;
+	text-align: right;
+	float: right;
+}
+.nav-section > .navigation{
+	display: inline-block;
+	position: relative;
+	top: 0.5px;
+}
+.nav-section > .navigation > ul{
+	display: block;
+	list-style-type: none;
+	text-align: right;
+}
+.nav-section > .navigation > ul > li{
+	display: inline-block;
+	margin-right: 22.4px;
+	position: relative;
+	text-align: center;
+}
+.nav-section > .navigation > ul > li:last-child{
+	margin-right: -1px;
+}
+.nav-section > .navigation > ul > li > a{
+	text-decoration: none;
+	color: #ffff;
+	margin-left: 0px;
+	font-family: 'Luxury Gold';
+	font-size: 13px;
+}
+.nav-section > .navigation > ul > li > a > i{
+	margin-left: 0px;
+}
+.nav-section > .search-button{
+	display: inline-block;
+	margin-left: 35px;
+	font-size: 23px;
+	position: relative;
+	top: 7px;
+}
+.search-button > a > i{
+	color: #622aac;
+}
+.nav-section > .menu-button{
+	display: inline-block;
+	margin-left: 24px;
+	position: relative;
+	top: 7px;
+}
+.bar-1{
+	width: 35px;
+	height: 3px;
+	background: #03adb8;
+	display: block;
+}
+.bar-2{
+	width: 35px;
+	height: 3px;
+	margin: 5px 0;
+	background: #ea292a;
+	display: block;
+}
+.bar-3{
+	width: 35px;
+	height: 3px;
+	background:#f9b000;
+	display: block;
+}
+/* header section completed */
+
+
+/* Banner start */
+
+.main-banner{
+	height: calc(100vh - 60px);
+	margin-bottom: 0;
+	
+}
+.banner-items{
+	height: calc(100vh - 60px);
+	text-align: center;
+	/* margin-top: -26.9px; */
+	background-size: cover !important;
+}
+.main-banner > .banner-items > .container > .text-on-banner{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	height: calc(100vh - 60px);
+}
+.text-on-banner > h1{
+	font-size: 40px;
+	font-family: 'Luxury Gold';
+	font-weight: lighter;
+	margin-bottom: -10px;
+	margin-left: -10px;
+	color: #ffff;
+}
+.text-on-banner > p{
+	font-size: 20px;
+    font-family: 'Lato', sans-serif;
+	font-weight: 600;
+	color: #ffff;
+}
+/* banner-section completed */
+
+/* about-us section starts */
+
+
+.about-section{
+	/* position: relative;	 */
+	min-height: 600px;
+}
+.about-section > img{
+	width: 50%;
+	float: right;
+	min-height: 600px;
+
+}
+.about-section > .container > .about-content{
+	text-align: left;
+	color: white;
+	/* width: 50%; */
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	min-height: 600px;
+	width: 400px;
+}
+.about-section > .container > .about-content > h2{
+	font-size: 28px;
+	
+}
+.about-section > .container > .about-content > p{
+	font-size: 14px;
+	font-weight: 600;
+}
+/* about-us section completed */
+
+
+.our-companies{
+	margin: 40px auto 55px;
+}
+.our-companies > .container > h2{
+	font-size: 28px;
+	font-family: 'luxury gold';
+	color: black;
+	font-weight: lighter;
+	position: relative;
+}
+.our-companies > .container > .img-gallery{
+	position: relative;
+	display: grid;
+	grid-gap: 10px;
+	grid-template-rows: repeat(2, 188px) 387px;
+	grid-template-columns: repeat(2, 228px) 466px;
+}
+.img-1{
+	grid-column: 1 / 3;
+	grid-row: 1 / 3;
+}
+.img-1:hover .hover-1{
+	opacity: 1;
+}
+.img-2{
+	grid-row: 1 / 2;
+}
+.img-3{
+	grid-row: 2 / 3;
+}
+.img-4{
+	grid-column: 1 / 2;
+	grid-row: 3 / 4;
+}
+.img-5{
+	grid-column: 2 / 3;
+	grid-row: 3 / 4;
+}
+.img-6{
+	width: 468px;
+	height: 387px;
+	grid-row: 3 / 4;
+	grid-column: 3 / 4;
+}
+/*our companies section almost completed*/
+
+
+/*Our values section starts*/
+
+.our-values{
+	background: #e5e5e5;
+	padding: 110px 0 56px 0;
+}
+.our-values::after{
+	content: " ";
+	display: block;
+	clear: both;
+	*zoom: 1;
+}
+.container > h2{
+	position: absolute;
+	font-size: 28px;
+	color: #000;
+	font-family: 'Luxury Gold';
+	margin: 55px 0 35px 0;
+}
+.value-items{
+	background: white;
+	position: relative;
+	border: 1px solid white;
+	box-shadow: 3px 3px 0 #dddd;
+	font-family: 'Luxury Gold';
+	font-size: 14px;
+	width: 23.7%;
+	float: left;
+	margin-right: 10px;
+	line-height: 25px;
+}
+.value-items:last-child{
+	position: relative;
+	right: -10px;
+}
+.value-items > .values-text{
+	padding: 10px;
+}
+.value-items > img{
+	position: relative;
+	width: 100%;
+	object-fit: cover;
+}
+.value-items > .values-text > h3{
+	position: relative;
+	/*color: #302b6f;*/
+	font-size: 19px;
+}
+.value-items > .values-text > p{
+	text-align: left;
+	position: relative;
+}
+.value-items > .values-text > a{
+	/*color: #302b6f;*/
+	position: relative;
+	text-decoration: none;
+	font-weight: 600;
+}
+#item-1 h3{
+	/*color: #03adb8;*/
+	color: #302b6f;
+}
+#item-1 a{
+	/*color: #03adb8;*/
+	color: #302b6f;
+}
+#item-2 h3{
+	color: #03adb8;
+}
+#item-2 a{
+	color: #03adb8;
+}
+#item-3 h3{
+	/*color: #03adb8;*/
+	color: #ef3764;
+}
+#item-3 a{
+	/*color: #03adb8;*/
+	color: #ef3764;
+}
+#item-4 h3{
+	/*color: #03adb8;*/
+	color: #f9b000;
+}
+#item-4 a{
+	/*color: #03adb8;*/
+	color: #f9b000;
+}
+/*our values section completed*/
+
+
+
+/*footer section starts here*/
+
+.footer::after{
+	content: " ";
+	display: block;
+	clear: both;
+	*zoom: 1; /*some extra code for the browsers which do not support these css properties*/
+}
+.footer{
+	background: #000522;
+	box-sizing: border-box;
+	position: relative;
+	/*top: -13px;*/
+	left: 0;
+	bottom: 0;
+	height: 300px;
+	/*padding: 10px 50px;*/
+}
+.footer-logo-section{
+	width: 10%;
+	float: left;
+	
+}
+.social-icons{
+	font-size: 18px;
+}
+.icons{
+	display: inline-block;
+	margin-right: 10px;
+	line-height: 60px;
+}
+.icons:last-child{
+	margin-right: 8px;
+}
+.social-icons:last-child{
+	margin-right: -10px;
+}
+#facebook-icon{
+	color: white;
+}
+#twitter-icon{
+	color: white;
+}
+#inst-icon{
+	color: white;
+}
+.footer-content{
+	font-size: 12px;
+	color: #ffff;
+	clear: both;
+}.footer-sections{
+	position: relative;
+	width: 33%;
+	float: left;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border-right: 1px solid #302b6f;
+	border-radius: 1px;
+}
+table a{
+	text-decoration: none;
+	color: #fff;
+	font-family: 'Luxury Gold';
+	font-size: 12px;
+	/*margin-left: 12px;*/
+}
+.our-companies-footer > table a::before{
+	content: " ";
+	display: inline-block;
+	width: 5px;
+	height: 5px;
+	border: 0px;
+	margin-right: 10px;
+	border-radius: 50px;
+	background: #03adb8;
+	position: relative;
+}
+.our-companies-footer h3{
+	color: #03adb8;
+}
+table{
+	width: 350px;
+}
+table td a{
+	padding-right: 50px;
+}
+.contact-us-footer{
+	float: left;
+	font-size: 12px;
+	padding-left: 20px;
+	border: none;
+}
+.contact-us-footer h3{
+	color: #ef3764;
+}
+.our-values-footer > table a::before{
+	content: " ";
+	display: inline-block;
+	width: 5px;
+	height: 5px;
+	border: 0px;
+	margin-right: 10px;
+	border-radius: 50px;
+	background: #c78e07;
+	position: relative;
+	top: 0;
+	left: 0;
+}
+.our-values-footer{
+	padding-left: 30px;
+}
+.our-values-footer h3{
+	color: #c78e07;
+	font-size: 14px;
+}
+table span{
+	color: #f9b000;
+}
+
+
+
+#footer-end{
+	text-align: left;
+	line-height: 50px;
+	font-size: 12px;
+	color: #fff;
+	clear: both;
+	font-family: 'Luxury Gold';
+	line-height: 120px;
+}
+#footer-end > span{
+	display: block;
+
+}
+/*footer-section completed*/
+
+
+/*slick slider*/
+
+
+.slick-prev{
+	position: absolute;
+	opacity: 0;
+}
+.slick-next{
+	opacity: 0;
+	position: absolute;
+
+	/*other way to hide*/
+	
+	/* 2.   display: none;*/
+
+	/* 3.   position: absolute;
+	    	top: -50px;
+			left: -50px;*/
+}
+.banner-slider > ul{
+	display: block;
+	list-style: none;
+	text-align: center;
+	margin-top: -100px;
+	position: relative;
+	top: 0;
+	left: 0;
+}
+.banner-slider > ul > li{
+	display: inline-block;
+	position: relative;
+}
+.banner-slider > ul > li > button{
+	font-size: 0;
+	width: 20px;
+	height: 20px;
+	background: transparent;
+	position: relative;
+	margin-right: 10px;
+	border: 1px solid white;
+	border-radius: 50%;
+}
+.active, .banner-slider > ul > li > button:hover{
+	background: white;
+}
+
+.banner-slider ul li.slick-active button{
+	border: 1px solid #fff;
+	background: #fff;
+}
+
+
+/*.banner-slider > ul > li > button:active{
+	background: white;
+}*/
